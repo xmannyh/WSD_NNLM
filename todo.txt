@@ -1,0 +1,21 @@
+-problem child: get_dataset()
+---verifying that sense arrays are doing the things in
+
+-problem child: inference()
+---line 154 sense DNE, why?
+---merge w/ train() and util() changes
+
+-model thing inference()
+---once train is run, put save2/model from save
+---save latest checkpoint import_meta_graph()
+
+-organization
+---put things in folder: pre-processing, model, dictionaries (done)
+---code clean-up
+---delete unnecessary files (DONE)
+
+-experiments
+---test w/ larger dataset using AWS GPUs
+---steal Wesley's GPUs
+---experiment w/ removing stopwords in pre-processing step
+---stop basing off of frequent verbs
