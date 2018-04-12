@@ -13,9 +13,14 @@
 ---put things in folder: pre-processing, model, dictionaries (done)
 ---code clean-up
 ---delete unnecessary files (DONE)
+---update dependence graph figure
+
+processed data -> utils -> train 
+                  model ->
 
 -experiments
 ---test w/ larger dataset using AWS GPUs
 ---steal Wesley's GPUs
 ---experiment w/ removing stopwords in pre-processing step
 ---stop basing off of frequent verbs
+---only run processing script if data hasn't been processed
