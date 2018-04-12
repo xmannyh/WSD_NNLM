@@ -24,3 +24,7 @@ processed data -> utils -> train
 ---experiment w/ removing stopwords in pre-processing step
 ---stop basing off of frequent verbs
 ---only run processing script if data hasn't been processed
+
+-utils()
+---check if pickle and numpy data files exist, if not run script to generate files
+---use ../ folder
